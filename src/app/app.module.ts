@@ -3,14 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ProdsPageComponent } from './pages/prods-page/prods-page.component';
+import { GestionPageComponent } from './pages/gestion-page/gestion-page.component';
+import { HeaderComponent } from './shared/components/header/header.component';
+import {HttpClientModule} from '@angular/common/http';
+import { FooterComponent } from './shared/components/footer/footer.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    ProdsPageComponent,
+    GestionPageComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

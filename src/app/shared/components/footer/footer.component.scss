@@ -1,0 +1,29 @@
+.redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    color: white;
+
+}
+
+
+.footer{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.siguenos{
+    color: white;
+}
+
+
+
+.copyright{
+    color: white;
+}

@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.container__bloque{
+    background-color: white;
+    max-width: 70%;
+    border-radius: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+
+img{
+    width: 250px;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+}
+
+.producto__container{
+    background-color: white;
+    width: 250px;
+
+   font-family: inter
+}

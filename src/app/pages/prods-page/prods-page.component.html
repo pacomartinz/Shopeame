@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="container__bloque">
+        <h3 class="listaProductos"> Listado de productos: {{products.length}}</h3>
+
+        <div class="galeria">
+
+            <div ngClass="tarjeta" *ngFor="let product of products">
+                <div class="producto__container">
+                    <img [src]="product.image" alt="product image">
+                    <h3>{{product.name}}</h3>
+                    <p>{{product.price}}€</p>
+                    <p>{{product.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  
